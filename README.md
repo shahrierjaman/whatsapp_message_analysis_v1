@@ -5,8 +5,7 @@ An interactive **Streamlit**-based analytics platform that transforms exported W
 
 ## 🌍 Live Demo
 Experience the app in action:
-👉 **[View Live Dashboard](https://your-app-name.streamlit.app)** *(Replace with your actual app link)*
-
+👉 **[View Live Dashboard](https://whatsapp-message-analysis-v1.streamlit.app/)** 
 ---
 
 ## 🧠 Project Overview
