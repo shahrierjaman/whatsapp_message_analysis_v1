@@ -6,6 +6,12 @@ import emoji
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
 
+# Safe download for Streamlit Cloud
+try:
+    nltk.data.find('sentiment/vader_lexicon')
+except LookupError:
+    nltk.download('vader_lexicon')
+
 extract = URLExtract()
 
 def fetch_states(selected_user,df):
@@ -308,5 +314,6 @@ def sentiment_by_user(df):
         .round(3)
         .sort_values(ascending=False)
     )
+
 
 
