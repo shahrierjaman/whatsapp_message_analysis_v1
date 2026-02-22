@@ -19,11 +19,12 @@ PLOTLY_THEME = "plotly_white"
 # =========================
 # Emoji Font (for matplotlib only)
 # =========================
-from matplotlib import font_manager, rcParams
-emoji_font = font_manager.FontProperties(
-    fname=r"C:\Windows\Fonts\seguiemj.ttf"
-)
-rcParams['font.family'] = emoji_font.get_name()
+#This part will not work in streamlit cloud. Comment out for deploy 
+#from matplotlib import font_manager, rcParams
+#emoji_font = font_manager.FontProperties(
+    #fname=r"C:\Windows\Fonts\seguiemj.ttf"
+#)
+#rcParams['font.family'] = emoji_font.get_name()
 
 # =========================
 # Sidebar
@@ -281,4 +282,5 @@ if upload_file is not None:
                     title="Emoji Usage Share",
                     template=PLOTLY_THEME
                 )
+
                 st.plotly_chart(fig, use_container_width=True)
