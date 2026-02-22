@@ -47,22 +47,24 @@ This application analyzes WhatsApp chat exports (`.txt` format) to provide a com
 | **Utilities** | WordCloud, URLExtract, Emoji |
 
 ## 📂 Project Structure
+```bash
 📁 whatsapp-chat-analyzer/
 │
-├── app.py # Main Streamlit application
-├── helper.py # Core analysis functions
-├── preprocess_text.py # Text cleaning and preprocessing
-├── requirements.txt # Python dependencies
-├── nltk.txt # NLTK data dependencies
+├── app.py                   # Main Streamlit application
+├── helper.py                # Core analysis functions
+├── preprocess_text.py       # Text cleaning and preprocessing
+├── requirements.txt         # Python dependencies
+├── nltk.txt                 # NLTK data dependencies
 │
-├── screenshots/ # Folder for application screenshots
-│ ├── dashboard.png
-│ ├── timeline.png
-│ ├── engagement.png
-│ ├── sentiment.png
-│ └── emoji.png
+├── screenshots/             # Folder for application screenshots
+│   ├── dashboard.png
+│   ├── timeline.png
+│   ├── engagement.png
+│   ├── sentiment.png
+│   └── emoji.png
 │
-└── README.md # Project documentation (this file)
+└── README.md                # Project documentation (this file)
+```
 
 
 ## ✨ Features (Version 1)
